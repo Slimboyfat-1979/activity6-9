@@ -1,0 +1,147 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <title>The HauKai</title>
+</head>
+
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="images/image_2021-05-12_221257.png" alt=""></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="menu.html">Menu</a></li>
+                    <li><a href="book.html">Bookings</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="privacy.html">Privacy</a></li>
+                    <li><a href="private/private.html">Log In</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>Welcome to the Haukai Restaurant</h1>
+            <a href="book.html" class="hero-btn">Make a Booking</a>
+        </div>
+    </section>
+
+    
+
+    <section class="course">
+        <h1>NZ cuisine with a Maori flair</h1>
+        <p>Come experience fine dining in the midst of the beautiful bay of islands</p>
+        <div class="row">
+            <div class="course-col">
+                <h3>Breakfast Lunch</h3>
+                <p>We have a wide range of food to cater to all tastes in our breakfast and lunch menu. Each dish is made with love from our experienced and qualified chefs born right here in the Bay of Islands</p>
+            </div>
+             <div class="course-col">
+                <h3>Dinner</h3>
+                <p>All of our dinner meals are drawn from authentic Maori recipies passed down through generations. Whether you would like to try something brand new or an old classic with dash of flair embedded from the region you will not be dissapointed</p>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section class="offer">
+        <h1>Our Dishes</h1>
+        <p> sampling of our dishes, or better yet come on in, we'd love to see you!</p>
+        <div class="row">
+            <div class="offer-col">
+                <img src="images/appetiser.jpg" alt="">
+                <div class="layer">
+                    <h3>Appetizers</h3>
+                </div>
+            </div>
+            <div class="offer-col">
+                <img src="images/main.jpg" alt="">
+                <div class="layer">
+                    <h3>Main</h3>
+                </div>
+            </div>
+            <div class="offer-col">
+                <img src="images/dessert.jpg" alt="">
+                <div class="layer">
+                    <h3>Desserts</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="testimonials">
+        <h1>What Our Customers Say</h1>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="images/phoebe.jpg" alt="">
+                <div>
+                    <p>One of the best restauraunts I have encounted in the Northland region. Lovely food and hospitable staff</p>
+                    <H3>Christine</H3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="images/terri.jpg" alt="">
+                <div>
+                    <p>As a discerning conniseur of fine food, I was looking for something unique to experience NZ in a way that I would remember forever. The Haukai delivered beyond my expectations. Thanks for the memories!</p>
+                    <H3>Terri</H3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+<Footer class="footer">
+
+<h4>About Us</h4>
+<p>1 Island Street, Kerikeri Bay Of Islands<br>
+09-401-4019
+</p>
+<div class="icons">
+<i class="fab fa-facebook"></i>
+<i class="fab fa-twitter"></i>
+<i class="fab fa-instagram"></i>
+<i class="fab fa-linkedin"></i>
+</div>
+
+</Footer>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
